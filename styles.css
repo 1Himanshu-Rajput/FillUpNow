@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(42, 134, 57), rgb(255, 255, 255));
+}
+
+h1 {
+    color: rgb(15, 10, 4);
+    margin-top: 130px;
+    text-align: center;
+}
+
+.navtools {
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(42, 134, 57), rgb(255, 255, 255));
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(2, 0, 0);
+}
+
+li {
+    list-style: none;
+
+}
+
+button.navbut {
+    margin-left: 15px;
+    background-image: linear-gradient(to bottom, rgb(42, 134, 57), rgb(255, 255, 255));
+    border-radius: 12px;
+    padding: 5px;
+    width: 100px;
+    border-color: black;
+}
+
+button a {
+    color: rgb(6, 6, 6);
+}
+
+.logo a {
+    color: black;
+}
+
+.hrcolor {
+    border: none;
+    border-top: 1px solid rgb(28, 69, 28);
+}
+
+h3 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.findbutton1 {
+    text-align: center;
+    margin-top: 30px;
+    padding: 12px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(to bottom, rgb(42, 134, 57), rgb(255, 255, 255));
+}
+
+.findbutton {
+    text-align: center;
+}
+.effect1{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(42, 134, 57);
+    transition: width 3s;
+}
+.effect1:hover{
+    width: 450px;
+}
